@@ -1,0 +1,141 @@
+body{
+	width: 1000px;
+	margin: auto;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    background: #FAFAFA;
+    text-align: center;
+}
+
+.title h1 {
+    font-size: 48px;
+    font-family: 'Satisfy', cursive;
+    line-height: 84px;
+    color: #000000;
+    text-shadow: 1px 1px 4px #ffffff, 0px 0px 40px #2db3ff;
+}
+
+h3{
+	text-shadow: 1px 1px 4px #ffffff, 0px 0px 25px #F08080;
+}
+
+h4{
+	font-size: 14px;
+	margin-top: 7px;
+}
+
+h5{
+	font-size: 14px;
+	margin-top: 20px;
+}
+
+
+#tweet_feed{
+	text-align: center;
+	display: inline-block;
+}
+
+ul{
+	list-style: none;
+	margin-left: -40px;
+}
+
+li{
+    width: 635px;
+    padding: 10px;
+    background: lavender;
+    height: 80px;
+    border-radius: 10px;
+	line-height: 80px;
+	vertical-align: middle;
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+li p {
+	display:inline-block;
+  	line-height:14px;
+  	vertical-align:middle;
+}
+
+#tweet_feed img{
+	width: 48px;
+	height: 48px;
+	position: absolute;
+	margin-left: -380px;
+	margin-top: 45px;
+	border-radius: 30px;
+}
+
+#subtitle{
+	font-size: 10px;
+	margin-top: -40px;
+	margin-left: 320px;
+}
+
+#float{
+	position: absolute;
+	color: #fff;
+	background-color: #000;
+	left: 30px;
+	top: 30px;
+    width: 65px;
+    height: 65px;
+    border-radius: 45px;
+    padding: 10px;
+    opacity: .7;
+}
+
+#float:hover{
+	opacity: 1;
+}
+
+#float2{
+	position: absolute;
+	color: #fff;
+	background-color: #000;
+	left: 30px;
+	top: 120px;
+    width: 65px;
+    height: 65px;
+    border-radius: 45px;
+    padding: 10px;
+    opacity: .7;
+}
+
+#float2:hover{
+	opacity: 1;
+}
+
+
+#float3{
+	position: absolute;
+	color: #fff;
+	background-color: #000;
+	left: 30px;
+	top: 210px;
+    width: 65px;
+    height: 65px;
+    border-radius: 45px;
+    padding: 10px;
+    opacity: .7;
+}
+
+#float3:hover{
+	opacity: 1;
+}
+
+h2{
+	font-size: 48px;
+	text-shadow: 1px 1px 4px #ffffff, 0px 0px 0px #2db3ff;
+	animation-name: load;
+    animation-duration: 5s;
+}
+
+@keyframes load {
+    0%   {text-shadow: 1px 1px 4px #ffffff, 0px 0px 40px #2db3ff;}
+    25%  {text-shadow: 1px 1px 4px #ffffff, 0px 0px 25px #F08080;}
+    50%  {text-shadow: 1px 1px 4px #ffffff, 0px 0px 40px #2db3ff;}
+    100% {text-shadow: 1px 1px 4px #ffffff, 0px 0px 25px #F08080;}
+}
+
